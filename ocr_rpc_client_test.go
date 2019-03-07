@@ -22,7 +22,7 @@ func rabbitConfigForTests() RabbitConfig {
 	return rabbitConfig
 }
 
-// This test assumes that rabbit mq is running
+// DisabledTestOcrRpcClientIntegration: assumes that rabbit mq is running
 func DisabledTestOcrRpcClientIntegration(t *testing.T) {
 
 	// TODO: serve this up through a fake webserver

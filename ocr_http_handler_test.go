@@ -11,7 +11,7 @@ import (
 	"github.com/couchbaselabs/logg"
 )
 
-// This test assumes that rabbit mq is running
+// DisabledTestOcrHttpHandlerIntegration: assumes that rabbit mq is running
 func DisabledTestOcrHttpHandlerIntegration(t *testing.T) {
 
 	rabbitConfig := rabbitConfigForTests()

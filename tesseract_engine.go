@@ -74,7 +74,7 @@ func NewTesseractEngineArgs(ocrRequest OcrRequest) (*TesseractEngineArgs, error)
 
 }
 
-// return a slice that can be passed to tesseract binary as command line
+// Export returns a slice that can be passed to tesseract binary as command line
 // args, eg, ["-c", "tessedit_char_whitelist=0123456789", "-c", "foo=bar"]
 func (t TesseractEngineArgs) Export() []string {
 	result := []string{}
